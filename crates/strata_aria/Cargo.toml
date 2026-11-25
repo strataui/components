@@ -1,0 +1,15 @@
+[package]
+name = "strata-aria"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Accessible Headless UI Primitives & Floating Collision Engine for Strata"
+repository.workspace = true
+homepage.workspace = true
+documentation.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+strata-dom = { workspace = true }

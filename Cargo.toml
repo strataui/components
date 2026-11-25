@@ -1,0 +1,40 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/strata_icons",
+    "crates/strata_aria",
+    "crates/strata_ui",
+    "examples/creative_studio",
+    "examples/ecommerce_storefront",
+    "examples/saas_dashboard",
+]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Strata Contributors"]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/strataui/components"
+homepage = "https://github.com/strataui/components"
+documentation = "https://docs.rs/strata-components"
+keywords = ["gui", "components", "icons", "aria", "strata"]
+categories = ["gui"]
+
+[workspace.dependencies]
+strata-icons = { path = "crates/strata_icons", version = "0.1.0" }
+strata-aria = { path = "crates/strata_aria", version = "0.1.0" }
+strata-components = { path = "crates/strata_ui", version = "0.1.2" }
+
+strata-ui = "0.1.4"
+strata-primitives = "0.1.0"
+strata-dom = "0.1.2"
+strata-style = "0.1.0"
+strata-layout = "0.1.0"
+strata-macro = "0.1.2"
+strata-a11y = "0.1.1"
+strata-render = "0.1.2"
+strata-ui-platform = "0.1.2"
+strata-js = "0.1.0"
+
+[profile.dev]
+opt-level = 1

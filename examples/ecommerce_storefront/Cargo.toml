@@ -1,0 +1,13 @@
+[package]
+name = "ecommerce_storefront"
+version.workspace = true
+publish = false
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "High-performance Technical Apparel E-Commerce Storefront in Strata"
+
+[dependencies]
+strata-ui = { workspace = true }
+strata-components = { workspace = true }
+strata-icons = { workspace = true }
